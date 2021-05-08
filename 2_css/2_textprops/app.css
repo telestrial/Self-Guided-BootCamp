@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    font-weight: 400;
+    text-decoration: blue underline wavy;
+    letter-spacing: 15px;
+    font-size: 80px;
+    /* Demonstration of font-family fall back deviates based on Steele=Mac. Me=Windows */
+    font-family: Segou UI, Impact, Arial;
+}
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}

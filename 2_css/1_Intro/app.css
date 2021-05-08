@@ -1,6 +1,6 @@
 h2 {
-    color: teal;
-    background-color: plum;
+    color: #5FCFFC;
+    background-color: rgb(89, 151, 0);
 }
 
 button {
@@ -11,4 +11,9 @@ button {
 p {
     color: olive;
     background-color: orange;
+}
+
+/* demonstrates abbreviation in hex when pairs match*/
+body {
+    background-color: #C5E;
 }
