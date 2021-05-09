@@ -1,0 +1,99 @@
+/* * {
+    background-color: cyan;
+} */
+
+body {
+    background-color: #f1faee;
+}
+
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+h1, h2 {
+    color: #1d3557;
+}
+
+#signup {
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+span {
+    color: #457b9d;
+}
+
+.tag {
+    background-color: #e63946;
+    color: #f1faee;
+    font-size: 16px;
+}
+
+.post a {
+    color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer a {
+    color: #e63946;
+}
+
+h2 + button {
+    font-size: 20px;
+}
+
+footer > a {
+    color: #a8dadc; 
+}
+
+input[type="password"] {
+    color: limegreen;
+}
+
+a[href*="google"] {
+    color: magenta;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #02c39a;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #dfe8dc;
+}
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: #fcbf49;
+}
+
+/* Demonstrating cascading effect on one sheet. */
+/* h1,h2 {
+    color: yellow;
+} */
+
+.post button:hover {
+    background-color: #e63946; /* conflict [1] - more specific wins*/
+    color: #f1faee;
+}
+
+button:hover {
+    background-color: olive; /* conflict [2] - less specific loses*/
+}
+
+button {
+    background: magenta !important;
+}

@@ -1,0 +1,4 @@
+/* Demonstrating cascading effect across two sheets. Second listed in HTML wins*/
+h1, h2 {
+    color: olivedrab;
+}

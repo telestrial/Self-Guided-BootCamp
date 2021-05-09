@@ -4,7 +4,7 @@ h1 {
     text-decoration: blue underline wavy;
     letter-spacing: 15px;
     font-size: 80px;
-    /* Demonstration of font-family fall back deviates based on Steele=Mac. Me=Windows */
+    /* Demonstration of font-family fall back deviates based on Steele's Mac vs. My PC and available fonts */
     font-family: Segou UI, Impact, Arial;
 }
 a {
