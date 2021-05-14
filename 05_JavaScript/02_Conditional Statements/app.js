@@ -1,40 +1,41 @@
 // console.log("BEFORE CONDITIONALS")
 
-// let random = Math.random();
+let random = Math.random();
 
-// if (random < 0.5) {
-//     console.log("YOUR NUMBER IS LESS THAN 0.5")
-// }
-
-// if (random >= 0.5) {
-//     console.log("YOUR NUMBER IS GREATER THAN 0.5")
-// }
+if (random < 0.5) {
+    console.log("YOUR NUMBER IS LESS THAN 0.5")
+} else {
+    console.log("YOUR NUMBER IS GREATER THAN 0.5")
+}
+console.log(random);
 
 // console.log("AFTER CONDITIONALS")
 
-// const dayOfWeek = 'Friday'
+const dayOfWeek = prompt('What day is it?').toLowerCase()
 
-// if (dayOfWeek === 'Monday') {
-//     console.log('Ugh. I hate Mondays!')
-// } else if (dayOfWeek === 'Saturday') {
-//     console.log('Yay. I love Saturdays!')
-// } else if (dayOfWeek === 'Friday') {
-//     console.log('Fridays are decent, especially after work!')
-// }
+if (dayOfWeek === 'monday') {
+    console.log('Ugh. I hate Mondays!')
+} else if (dayOfWeek === 'saturday') {
+    console.log('Yay. I love Saturdays!')
+} else if (dayOfWeek === 'friday') {
+    console.log('Fridays are decent, especially after work!')
+} else {
+    console.log('MEH')
+}
 
 // 0-5 - FREE
 // 5 - 10 - CHILD $10
 // 10 - 65 - ADULT $20
-// 65+ SENIOR $20
+// 65+ SENIOR $15
 
 const age = 65;
 
 if (age < 5) {
-    console.log('FREE')
+    console.log('You are a baby. You get in for free!')
 } else if (age < 10) {
-    console.log('$10')
+    console.log('You are a child. You pay $10!')
 } else if (age < 65) {
-    console.log('$20')
-} else if (age <= 65) {
-    console.log('$15')
+    console.log('You are an adult. You pay $20!')
+} else {
+    console.log('You are a semior. You pay $10!')
 }
