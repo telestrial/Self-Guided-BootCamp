@@ -24,6 +24,9 @@ let die6 = Math.floor(Math.random() * 6) + 1;
 // function funcName () {
 //    do something
 // }
+//
+// Running one:
+// funcName();
 
 function grumpus() {
     console.log('ugh..you again...');
