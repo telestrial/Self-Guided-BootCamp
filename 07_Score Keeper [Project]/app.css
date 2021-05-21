@@ -77,6 +77,7 @@ img {
 #btn1 {
     background-color:rgba(53, 196, 136, 0.9);
     font-size: .8em;
+    border-bottom-left-radius: 5px;
 }
 
 #btn2 {
@@ -87,6 +88,7 @@ img {
 #btn3 {
     background-color:rgb(219, 4, 40, 0.9);
     font-size: .8em;
+    border-bottom-right-radius: 5px;
 }
 
 h1 .win {
