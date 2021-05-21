@@ -1,0 +1,77 @@
+#scorecard {
+    margin: auto;
+    width: 350px;
+    border: 1px solid rgba(128, 128, 128, 0.63);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    padding-right: 10px;
+}
+
+#title h3 {
+    font-size: small;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.63);
+    border-top: none;
+}
+
+#score {
+    font-size: medium;
+    padding-left: 10px;
+    line-height: 10px;
+}
+
+#score h1 {
+    margin-top: 5px;
+}
+
+#playTo {
+    display: inline-flex;
+}
+
+img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 250px;
+    width: 350px;
+    padding: 0px;
+}
+
+#maxScore {
+    margin-top: 13px;
+    height: 1.5em;
+}
+
+#buttonBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn {
+    flex-grow: 1;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+}
+
+#btn1 {
+    background-color:rgb(53, 196, 136);
+    font-size: .8em;
+}
+
+#btn2 {
+    background-color:rgb(67, 95, 219);
+    font-size: .8em;
+}
+
+#btn3 {
+    background-color:rgb(219, 4, 40);
+    font-size: .8em;
+}
