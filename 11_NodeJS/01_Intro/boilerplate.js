@@ -16,4 +16,5 @@ try {
 
 // Think it may just be a version difference, but Colt's implementation  of
 // writeFileSync did not put '.' in each file. Apparently, it's required. 
-// Complains quite a bit if you don't.
+// Complains quite a bit if you don't. I imagine it has to do with a change in the
+// version.
