@@ -4,4 +4,4 @@
  # Todo List (Extra Practice Items)
  As I move through this course, I will add items that have challenged me enough that I believe extra practice is necessary to better grasp the subject.
 
- - [ ] Create another implementation of CRUD using Express. use 12_Express/03_Restful Routes as example.
+ - [ ] Create another implementation of CRUD using Express. [Use this as reference](12_Express/03_Restful Routes)
