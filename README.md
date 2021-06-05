@@ -10,4 +10,5 @@
  As I move through this course, I will add items that have challenged me enough that I believe extra practice is necessary to better grasp the subject.
 
  - [ ] Create another CRUD implementation using Express. [Use this section as reference](12_Express/03_Restful%20Routes)
- - [x] Learn more about MySQL and Postgres.
+ - [ ] Learn more about MySQL and Postgres.
+ - [ ] Learn more about instance vs. class/static methods.
