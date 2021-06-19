@@ -9,7 +9,8 @@
  # Todo List (Extra Practice Items)
  As I move through this course, I will add items that have challenged me enough that I believe extra practice is necessary to better grasp the subject.
 
- - [x] Create another CRUD implementation using Express. [Use this section as reference](12_Express/03_Restful%20Routes) - Done. No code to share...yet. =)
+ - [x] Create another CRUD implementation using Express. [Use this section as reference](12_Express/03_Restful%20Routes) 
+    - Done. No code to share...yet. =)
  - [x] Learn more about MySQL and Postgres.
     - https://blog.panoply.io/postgresql-vs.-mysql
  - [ ] Learn more about instance vs. class/static methods.
