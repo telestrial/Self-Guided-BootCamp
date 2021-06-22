@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.13.0",
     "cloudinary": "^1.26.0",
     "connect-flash": "^0.1.1",
     "dotenv": "^10.0.0",
@@ -17,6 +18,7 @@
     "ejs-mate": "^3.0.0",
     "express": "^4.17.1",
     "express-session": "^1.17.2",
+    "install": "^0.13.0",
     "joi": "^17.4.0",
     "method-override": "^3.0.0",
     "mongoose": "^5.12.13",
