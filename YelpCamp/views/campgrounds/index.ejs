@@ -5,16 +5,16 @@
     <a href="/campgrounds/new">Add Campground</a>
 </div>
 <% for (let campground of campgrounds) { %>
-<div class="card mb-3 p-3">
+<div class="row mt-3">
     <div class="col-md-4">
         <% if(campground.images.length) { %>
-        <img class="img-fluid" src="<%= campground.images[0].url %>" alt="">
+        <img class="img-fluid mx-auto d-block" src="<%= campground.images[0].url %>" alt="">
         <% } else { %>
         <img src="https://res.cloudinary.com/dibyl3p4z/image/upload/v1624309988/YelpCamp/gjnzmrivrhfdngoamvdx.jpg"
             alt="">
         <% } %>
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 mt-0">
         <div class="card-body">
             <h5 class="card-title"><%= campground.title %></h5>
             <p class="card-text"><%= campground.description %></p>
@@ -24,7 +24,6 @@
             <a href="campgrounds/<%=campground.id%>" class="btn btn-primary">View <%= campground.title%></a>
         </div>
     </div>
-</div>
 </div>
 <% } %>
 
