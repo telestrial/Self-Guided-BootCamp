@@ -1,15 +1,13 @@
-# Self Study Boot Camp
- This repo's code is a representation of the work involved in a self-guided study of coding with the intention of career placement after 4-6 months time. It may involve several different courses, but, for now, includes work from The Web Developer Bootcamp 2021 found here: https://www.udemy.com/course/the-web-developer-bootcamp/
+# The Self-Guided Bootcamp
+This repo's contents are the result of a self-guided lesson plan to attain employment in the field of web development within 4-6 months of time. It will consist of curriculum from multiple sources.
 
- # "Zero" Code Days
- This will outline days in which there was considerable work but no code was written to file.
-
- 06/02/2021: MongoDB Introduction
+# Table of Contents (In Order of Completion)
+- [The Complete Web Developer Bootcamp by Colt Steele](https://www.udemy.com/course/the-web-developer-bootcamp/)
 
  # Todo List (Extra Practice Items)
  As I move through this course, I will add items that have challenged me enough that I believe extra practice is necessary to better grasp the subject.
 
- - [x] Create another CRUD implementation using Express. [Use this section as reference](12_Express/03_Restful%20Routes) 
+ - [x] Create another CRUD implementation using Express. [Use this section as reference](Complete_Web_Dev_Bootcamp/12_Express/03_Restful%20Routes) 
     - Done. No code to share...yet. =)
  - [x] Learn more about MySQL and Postgres.
     - https://blog.panoply.io/postgresql-vs.-mysql
