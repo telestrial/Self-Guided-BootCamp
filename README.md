@@ -3,6 +3,7 @@ This repo's contents are the result of a self-guided lesson plan to attain emplo
 
 # Table of Contents (In Order of Completion)
 - [The Complete Web Developer Bootcamp by Colt Steele](https://www.udemy.com/course/the-web-developer-bootcamp/)
+    - Capstone Project: [YelpCamp](https://aqueous-citadel-80395.herokuapp.com/)
 
  # Todo List (Extra Practice Items)
  As I move through this course, I will add items that have challenged me enough that I believe extra practice is necessary to better grasp the subject.
