@@ -5,6 +5,7 @@
  This will outline days in which there was considerable work but no code was written to file.
 
  06/02/2021: MongoDB Introduction.
+ 
  6/26/2021: Assisting in a bug fix for the course.
 
  # Todo List For This Subfolder
