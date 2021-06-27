@@ -1,0 +1,2 @@
+# CSS Basics
+Like HTML Basics, it is straightforward to run/check these. Very few things here are aesthetically pleasing, other than perhaps a small [photo album demo](07_assorted/photocodealong) and the [pricing model](10_pricingmodelcodealong).
