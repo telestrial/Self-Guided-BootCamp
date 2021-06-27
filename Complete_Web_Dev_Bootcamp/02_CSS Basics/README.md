@@ -1,2 +1,2 @@
 # CSS Basics
-Like HTML Basics, it is straightforward to run/check these. Very few things here are aesthetically pleasing, other than perhaps a small [photo album demo](Complete_Web_Dev_Bootcamp/02_CSS%20Basics/07_assorted/photocodealong) and the [pricing model](Complete_Web_Dev_Bootcamp/02_CSS%20Basics/10_pricingmodelcodealong).
+Like HTML Basics, it is straightforward to run/check these. Very few things here are aesthetically pleasing, other than perhaps a small [photo album demo](https://github.com/telestrial/Self-Guided-BootCamp/tree/main/Complete_Web_Dev_Bootcamp/02_CSS%20Basics/07_assorted/08_photocodealong) and the [pricing model](https://github.com/telestrial/Self-Guided-BootCamp/tree/main/Complete_Web_Dev_Bootcamp/02_CSS%20Basics/10_pricingmodelcodealong).
