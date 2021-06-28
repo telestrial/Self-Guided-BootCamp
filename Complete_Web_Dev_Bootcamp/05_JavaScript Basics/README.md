@@ -1,0 +1,2 @@
+# Javascript Basics
+This portion of the course was taught through the chrome console, meaning that, in order to see any output here, you would need an HTML file with `<script src="app.js"></script>` within the body tag. I've included one in the [first subdirectory](https://github.com/telestrial/Self-Guided-BootCamp/blob/main/Complete_Web_Dev_Bootcamp/05_JavaScript%20Basics/01_Running%20Javascript/index.html).

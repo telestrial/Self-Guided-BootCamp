@@ -1,0 +1,2 @@
+# Object-Oriented Programming Introduction
+An html file connecting to app.js is required, and much of the instruction was done from the chrome dev console. I'm going to leave the title of this directory as is, but that is my understanding of this section now, a little over a month later. This introduces the whys and hows of inheritance.
