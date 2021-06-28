@@ -1,0 +1,2 @@
+# Authentication Demo
+The first folder in this directory is a simple js file->node demonstration of bcrypt. In the second folder, the requirements are much like the ones in the previous few directories, including a running mongodb daemon.

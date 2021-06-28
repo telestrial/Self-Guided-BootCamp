@@ -1,0 +1,2 @@
+# Mongoose Intro
+MongoDB is a dependency. There are several ways to run it, but most start with installing via the [MongoDB website](https://www.mongodb.com/). Once installed, you would need to have the mongo daemon running. As with the previous two directories, all of the code here can be run by stepping into the directory, running `node init -y` and then `npm install`. At that point, `node <index/app.js>` should get the app running. All run on port 3000.
