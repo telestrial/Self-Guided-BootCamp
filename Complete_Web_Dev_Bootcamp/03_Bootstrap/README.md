@@ -1,0 +1,2 @@
+# Bootstrap
+The only bit of importance to note here is that this course was written just before the release of Bootstrap 5. While he taught the course in 4, I modified things here and used 5, to the best of my understanding at the time.

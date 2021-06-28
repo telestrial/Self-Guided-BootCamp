@@ -1,0 +1,2 @@
+# Async Javascript
+In terms of the setup of files, this is not at all different from the javascript basics section. An html file connecting to app.js is required, and much of the instruction was done from the chrome dev console.

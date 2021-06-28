@@ -1,0 +1,2 @@
+# DOM Manipulation
+In this directory, all the folders remain untouched. Often, we were supplied the index or css, but sometimes not. Either, given the interplay between these, it's probably best to leave as is. Some of what is being accomplished here you'll only see in the chrome console.
