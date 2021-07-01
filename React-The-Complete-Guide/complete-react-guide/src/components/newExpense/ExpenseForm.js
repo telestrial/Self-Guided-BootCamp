@@ -6,24 +6,9 @@ const ExpenseForm = (props) => {
   const [enteredTitle, setEnteredTitle] = useState("");
   const [enteredAmount, setEnteredAmount] = useState("");
   const [enteredDate, setEnteredDate] = useState("");
-  // An alternate way to manage all three:
-  //   const [userInput, setUserInput] = useState({
-  //     enteredTitle: "",
-  //     enteredAmount: "",
-  //     setEnteredDate: "",
-  //   });
 
   const titleChangeHandler = (event) => {
     setEnteredTitle(event.target.value);
-    // This would work, but imperfect:
-    // setUserInput({
-    //   ...userInput,
-    //   enteredTitle: event.target.value,
-    // });
-    // calling setUserInput and then passing a function, you'll get prevState.
-    // setUserInput((prevState) => {
-    //   return { ...prevState, enteredTitle: event.target.value };
-    // });
   };
 
   const amountChangeHandler = (event) => {
@@ -38,7 +23,7 @@ const ExpenseForm = (props) => {
     event.preventDefault();
     const expenseData = {
       title: enteredTitle,
-      amount: enteredAmount,
+      amount: +enteredAmount,
       date: new Date(enteredDate),
     };
     props.onSaveExpenseData(expenseData);
@@ -80,6 +65,9 @@ const ExpenseForm = (props) => {
         </div>
       </div>
       <div className="new-expense__actions">
+        <button type="button" onClick={props.hideFormHandler}>
+          Cancel
+        </button>
         <button type="submit">Add Expense</button>
       </div>
     </form>
