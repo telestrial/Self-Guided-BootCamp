@@ -4,4 +4,4 @@ This subdirectory's code includes the work from Maximilian's Udemy course, found
 
 # Todo List
 
-- [ ] - a serious refactor. Given the nature of directory creation thus far in the course, I already know this is going to be a mess by the end.
+- [x] - a serious refactor/decide how to structure this. Given the nature of directory creation thus far in the course, I already know this is going to be a mess by the end.
