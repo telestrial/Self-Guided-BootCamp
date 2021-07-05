@@ -5,3 +5,4 @@ This subdirectory's code includes the work from Maximilian's Udemy course, found
 # Todo List
 
 - [x] - a serious refactor/decide how to structure this.
+- [ ] - Practice CSS..............
