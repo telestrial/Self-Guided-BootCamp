@@ -35,3 +35,11 @@ function App() {
 }
 
 export default App;
+
+// Tail end of module #12: useMemo. This has similar functionality to useCallback,
+// but is used mostly (I think) for data. A hard-coded array, for example, would
+// always force reevaluations, even with .memo() exports, because that array
+// is being re-created (new memory reference) every time the component its in is
+// rerun. That's what we prevent with useMemo(). It does have a memory cost,
+// though, so it's up to the individual project to determine the worth of this
+// optimization.
