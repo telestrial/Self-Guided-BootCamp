@@ -13,7 +13,9 @@ This repo's contents are the result of a self-guided lesson plan to attain emplo
 This will outline days in which there was considerable work but no code was written to file.
 
 06/02/2021: MongoDB Introduction.
+
 06/26/2021: Assisting in a bug fix for the course.
+
 07/11/2021: Chapter 2 of Eloquent Javascript
 
 # Todo List (Extra Practice Items)
