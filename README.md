@@ -8,6 +8,14 @@ This repo's contents are the result of a self-guided lesson plan to attain emplo
   - Capstone Project: [YelpCamp](https://aqueous-citadel-80395.herokuapp.com/)
 - [React - The Complete Guide [IN PROGRESS]](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
 
+# "Zero" Code Days
+
+This will outline days in which there was considerable work but no code was written to file.
+
+06/02/2021: MongoDB Introduction.
+06/26/2021: Assisting in a bug fix for the course.
+07/11/2021: Chapter 2 of Eloquent Javascript
+
 # Todo List (Extra Practice Items)
 
 As I move through this course, I will add items that have challenged me enough that I believe extra practice is necessary to better grasp the subject.
