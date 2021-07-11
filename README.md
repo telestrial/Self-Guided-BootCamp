@@ -16,5 +16,5 @@ As I move through this course, I will add items that have challenged me enough t
   - Done. No code to share...yet. =)
 - [x] Learn more about MySQL and Postgres.
   - https://blog.panoply.io/postgresql-vs.-mysql
-- [ ] Learn more about instance vs. class/static methods.
+- [x] Learn more about instance vs. class/static methods.
 - [ ] Read [6 Rules of Thumb for MongoDB Schema Design](https://www.mongodb.com/blog/post6-rules-of-thumb-for-mongodb-schema-design-part-1)
