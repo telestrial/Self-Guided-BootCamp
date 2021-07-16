@@ -16,7 +16,7 @@ This will outline efforts in which there was considerable work but no code was w
 
 - 06/02/2021: MongoDB Introduction.
 - 06/26/2021: Assisting in a bug fix for the course.
-- 07/15/2021: Eloquent JS Chapter 3-4 + exercises.
+- 07/15/2021: Eloquent JS Chapter 3 + exercises.
 
 # Todo List (Extra Practice Items)
 
