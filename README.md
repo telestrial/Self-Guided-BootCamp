@@ -7,8 +7,9 @@ This repo's contents are the result of a self-guided lesson plan to attain emplo
 Projects are hosted on Heroku's free tier. They will likely take a moment to start up on first load, but, after that, they should otherwise be responsive.
 
 - [The Complete Web Developer Bootcamp by Colt Steele [COMPLETED]](https://www.udemy.com/course/the-web-developer-bootcamp/)
-  - Capstone Project: [YelpCamp](https://aqueous-citadel-80395.herokuapp.com/)
+  - Capstone: [YelpCamp](https://aqueous-citadel-80395.herokuapp.com/)
 - [React - The Complete Guide [IN PROGRESS]](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
+  - Capstone: [React Meetup](https://react-meetups-demo.vercel.app/)
 
 # "Zero" Code Days
 
