@@ -1,42 +1,64 @@
-import { useEffect, useState } from "react";
+import Head from "next/head";
+
+import { MongoClient } from "mongodb";
+
 import MeetupList from "../components/meetups/MeetupList";
+import { Fragment } from "react";
 
-const DUMMY_MEETUPS = [
-  {
-    id: "m1",
-    title: "A First Meetup",
-    image:
-      "https://images.unsplash.com/photo-1582537754953-4a0cc1ea4f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-    address: "Barcelona, Spain",
-    description: "The most beautiful location on Earth.",
-  },
-  {
-    id: "m2",
-    title: "A Second Meetup",
-    image:
-      "https://images.unsplash.com/photo-1582537754953-4a0cc1ea4f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-    address: "Barcelona, Spain",
-    description: "The most beautiful location on Earth.",
-  },
-  {
-    id: "m3",
-    title: "A Third Meetup",
-    image:
-      "https://images.unsplash.com/photo-1582537754953-4a0cc1ea4f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-    address: "Barcelona, Spain",
-    description: "The most beautiful location on Earth.",
-  },
-];
+function HomePage(props) {
+  return (
+    <Fragment>
+      <Head>
+        <title>React Meetups</title>
+        <meta
+          name="description"
+          content="Browse a huge list of highly active React meetups!"
+        />
+      </Head>
+      <MeetupList meetups={props.meetups} />
+    </Fragment>
+  );
+}
 
-function HomePage() {
-  const [loadedMeetups, setLoadedMeetups] = useState([]);
+// export async function getServerSideProps(context) {
+//   const req = context.req; // Not unlike Express here.
+//   const res = context.res;
 
-  useEffect(() => {
-    // send an http request and fetch data
-    setLoadedMeetups(DUMMY_MEETUPS);
-  }, []);
+//   // fetch data from an API/Database
+//   return {
+//     props: {
+//       meetups: DUMMY_MEETUPS,
+//     },
+//     // no revalidate. This runs on every request.
+//   };
+// }
 
-  return <MeetupList meetups={loadedMeetups} />;
+export async function getStaticProps() {
+  // fetch data from an API/Database
+
+  const client = await MongoClient.connect(
+    "mongodb+srv://telestrial:........@cluster0.hvaoa.mongodb.net/meetups?retryWrites=true&w=majority"
+  );
+  const db = client.db();
+  const meetupsCollections = db.collection("meetups");
+
+  const meetups = await meetupsCollections.find().toArray();
+
+  client.close();
+
+  return {
+    // must return object
+    props: {
+      // must contain props key
+      meetups: meetups.map((meetup) => ({
+        title: meetup.title,
+        image: meetup.image,
+        address: meetup.address,
+        id: meetup._id.toString(),
+      })),
+    },
+    revalidate: 1,
+  };
 }
 
 export default HomePage;
