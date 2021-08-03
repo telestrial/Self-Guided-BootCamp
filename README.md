@@ -10,6 +10,7 @@ Projects are hosted on Heroku's free tier. They will likely take a moment to sta
   - Capstone: [YelpCamp](https://aqueous-citadel-80395.herokuapp.com/)
 - [React - The Complete Guide [COMPLETED]](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
   - Example Project: [React Meetup](https://react-meetups-demo.vercel.app/)
+- [React and Typescript: Build a Portfolio Project [IN PROGRESS]](https://www.udemy.com/course/react-and-typescript-build-a-portfolio-project/)
 
 # "Zero" Code Days
 
