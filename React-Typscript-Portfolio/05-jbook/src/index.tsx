@@ -40,6 +40,12 @@ const App = () => {
     // console.log(result);
 
     setCode(result.outputFiles[0].text);
+
+    try {
+      eval(result.outputFiles[0].text);
+    } catch (err) {
+      alert(err);
+    }
   };
 
   return (
@@ -52,6 +58,7 @@ const App = () => {
         <button onClick={onClickHandler}>Submit</button>
       </div>
       <pre>{code}</pre>
+      <iframe src="http://nothing.localhost:3000/test.html" sandbox="" />
     </div>
   );
 };
