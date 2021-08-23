@@ -91,3 +91,6 @@ class HashTable {
 // Insert: O(1)
 // Deletion: O(1)
 // Access: O(1)
+
+// This will depend quite a bit on the hashing function and/or the values that are being
+// hashed.
