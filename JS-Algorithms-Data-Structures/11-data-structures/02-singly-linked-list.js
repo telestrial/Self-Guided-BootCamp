@@ -79,7 +79,7 @@ class SinglyLinkedList {
     return currentNode;
   }
   set(index, val) {
-    targetNode = this.get(index);
+    let targetNode = this.get(index);
     if (targetNode) {
       targetNode.val = val;
       return true;
@@ -123,6 +123,22 @@ class SinglyLinkedList {
       prev = node;
       node = next;
     }
+    return this;
+  }
+  rotate(place) {
+    if (place === 0 || place >= this.length) return this;
+    if (place < 0) {
+      place = this.length + place;
+    }
+    let current = this.head;
+    let counter = 0;
+    while (counter < place) {
+      this.push(current.val);
+      this.shift(current.val);
+      current = current.next;
+      counter++;
+    }
+
     return this;
   }
 }
