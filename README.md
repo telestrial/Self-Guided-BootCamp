@@ -20,7 +20,7 @@ Projects are hosted on Heroku and Vercel's free tier, so any project link may ta
   - Example Project: [React Meetup](https://react-meetups-demo.vercel.app/)
 - [React and Typescript: Build a Portfolio](https://www.udemy.com/course/react-and-typescript-build-a-portfolio-project/) - DONE
   - Capstone: [Markdown/JS/JSX Code Book](https://markdown-code-demo.vercel.app/)
-- [Javascript Algorithms and Data Structures](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/) - PROGRESS
+- [Javascript Algorithms and Data Structures](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/) - DONE
 
 # "Zero" Code Days
 
