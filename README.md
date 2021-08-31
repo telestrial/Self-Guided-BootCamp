@@ -31,6 +31,7 @@ This will outline efforts in which there was considerable work but no code was w
 - 06/26/2021: Assisting in a bug fix for the course.
 - 07/15/2021: Eloquent JS Chapter 3 + Exercises.
 - 07/22/2021: Eloquent JS Chapter 4 + Exercises.
+- 08/31/2021: Hacker Rank Problem Solving
 
 # Todo List (Extra Practice Items)
 
