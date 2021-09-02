@@ -44,3 +44,4 @@ As I move through this course, I will add items that have challenged me enough t
 - [x] Learn more about instance vs. class/static methods.
 - [ ] Read [6 Rules of Thumb for MongoDB Schema Design](https://www.mongodb.com/blog/post6-rules-of-thumb-for-mongodb-schema-design-part-1)
   - [x] - Part 1
+- [ ] Look into [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) by Brad Frost.
