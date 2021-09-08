@@ -10,6 +10,13 @@
   visibility: hidden;
   transition: all 0.3s;
 
+  @supports (-webkit-backdrop-filter: blur(10px)) or
+    (backdrop-filter: blur(10px)) {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba($color-black, 0.3);
+  }
+
   &__content {
     @include absCenter;
 
@@ -27,13 +34,18 @@
   &__left {
     width: 33.333333%;
     display: table-cell;
+
+    @include respond(tab-land) {
+      display: none;
+      width: 0;
+    }
   }
 
   &__right {
     width: 66.666667%;
     display: table-cell;
     vertical-align: middle;
-    padding: 3rem 5rem;
+    padding: 2rem 3rem;
   }
 
   &__img {
@@ -57,6 +69,14 @@
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+
+    @include respond(phone) {
+      font-size: 1rem;
+      margin-bottom: 3rem;
+
+      column-gap: 2rem;
+      -moz-column-gap: 2rem;
+    }
   }
 
   // Open states
