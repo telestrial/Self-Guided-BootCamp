@@ -23,7 +23,7 @@ Projects are hosted on Heroku and Vercel's free tier, so any project link may ta
 - [Javascript Algorithms and Data Structures](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/) - DONE
 - [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/) - IN PROGRESS
 
-# "Zero" Code Days
+# "Zero" Code Sessions
 
 This will outline efforts in which there was considerable work but no code was written to file.
 
