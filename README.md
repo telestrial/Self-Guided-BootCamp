@@ -33,6 +33,7 @@ This will outline efforts in which there was considerable work but no code was w
 - 07/22/2021: Eloquent JS Chapter 4 + Exercises.
 - 08/31/2021: Hacker Rank Problem Solving
 - 09/09/2021: Hacker Rank Javascript Certification
+- 09/13/2021: CSS Grid Layout Introduction on Codepen
 
 # Todo List (Extra Practice Items)
 
