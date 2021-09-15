@@ -15,13 +15,14 @@ This repo's contents are the result of a self-guided lesson plan to attain emplo
 Projects are hosted on Heroku and Vercel's free tier, so any project link may take a moment to start up, but, after that, they should otherwise be responsive.
 
 - [The Complete Web Developer Bootcamp by Colt Steele](https://www.udemy.com/course/the-web-developer-bootcamp/) - DONE
-  - Capstone: [YelpCamp](https://aqueous-citadel-80395.herokuapp.com/)
+  - Example: [YelpCamp](https://aqueous-citadel-80395.herokuapp.com/)
 - [React - The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) - DONE
-  - Example Project: [React Meetup](https://react-meetups-demo.vercel.app/)
+  - Example: [React Meetup](https://react-meetups-demo.vercel.app/)
 - [React and Typescript: Build a Portfolio](https://www.udemy.com/course/react-and-typescript-build-a-portfolio-project/) - DONE
-  - Capstone: [Markdown/JS/JSX Code Book](https://markdown-code-demo.vercel.app/)
+  - Example: [Markdown/JS/JSX Code Book](https://markdown-code-demo.vercel.app/)
 - [Javascript Algorithms and Data Structures](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/) - DONE
-- [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/) - IN PROGRESS
+- [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/) - DONE
+  - Example: [Nexters](https://nexters.vercel.app/)
 
 # "Zero" Code Sessions
 
