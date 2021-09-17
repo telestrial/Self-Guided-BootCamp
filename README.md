@@ -49,3 +49,10 @@ As I move through this course, I will add items that have challenged me enough t
 - [ ] Read [6 Rules of Thumb for MongoDB Schema Design](https://www.mongodb.com/blog/post6-rules-of-thumb-for-mongodb-schema-design-part-1)
   - [x] - Part 1
 - [ ] Look into [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) by Brad Frost.
+
+# Git Bootcamp
+
+Considering that this repo has always been tracked, taking a course to further my skills that will have me working destructively with git poses some risk to the repo's stability. To avoid breaking anything, this course will be worked on outside of this repository, but its progress will still be tracked here.
+
+- 9/16/2021: Course Intro, Git intro, Installation (1 - 20)
+- 9/17/2021: Git Basics - Init, Commit, Workflow (21 - 30)
