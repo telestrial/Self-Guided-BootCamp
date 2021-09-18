@@ -56,3 +56,4 @@ Considering that this repo has always been tracked, taking a course to further m
 
 - 9/16/2021: Course Intro, Git intro, Installation (1 - 20)
 - 9/17/2021: Git Basics - Init, Commit, Workflow (21 - 30)
+- 9/18/2021: Git Docs, Atomic Commit Msgs, Git Log, GUI, Amend (31-39)
