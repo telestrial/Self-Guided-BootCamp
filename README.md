@@ -58,3 +58,4 @@ Considering that this repo has always been tracked, taking a course to further m
 - 9/17/2021: Git Basics - Init, Commit, Workflow (21 - 30)
 - 9/18/2021: Git Docs, Atomic Commit Msgs, Git Log, GUI, Amend (31-39)
 - 9/19/2021: Branches, HEAD (40-51)
+- 9/20/2021: Merging (52-60)
