@@ -7,3 +7,4 @@ Considering that this repo has always been tracked, taking a course to further m
 - 9/18/2021: Git Docs, Atomic Commit Msgs, Git Log, GUI, Amend (31-39)
 - 9/19/2021: Branches, HEAD (40-51)
 - 9/20/2021: Merging (52-60), Diff (61-71), Stash (72-79)
+- 9/21/2021: Undoing Changes and Time Travel (80-89)
