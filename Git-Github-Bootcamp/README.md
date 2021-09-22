@@ -8,4 +8,4 @@ Considering that this repo has always been tracked, taking a course to further m
 - 9/19/2021: Branches, HEAD (40-51)
 - 9/20/2021: Merging (52-60), Diff (61-71), Stash (72-79)
 - 9/21/2021: Undoing Changes and Time Travel (80-89), Github Basics (90-105)
-- 9/22/2021: Fetching/Pulling (106-114)
+- 9/22/2021: Fetching/Pulling (106-114), Odds and Ends (115-124).
