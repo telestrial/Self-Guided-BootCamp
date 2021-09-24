@@ -10,3 +10,4 @@ Considering that this repo has always been tracked, taking a course to further m
 - 9/21/2021: Undoing Changes and Time Travel (80-89), Github Basics (90-105)
 - 9/22/2021: Fetching/Pulling (106-114), Odds and Ends (115-124)
 - 9/23/2021: Workflows (125-138), Rebasing Intro (139-145), Interactive Rebase (146-150), Git Tags (151-161)
+- 9/24/2021: Hashing and Objects (162-173)
