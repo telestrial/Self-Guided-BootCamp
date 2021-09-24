@@ -23,7 +23,7 @@ Projects are hosted on Heroku and Vercel's free tier, so any project link may ta
 - [Javascript Algorithms and Data Structures](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/) - DONE
 - [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/) - DONE
   - Example: [Nexters](https://nexters.vercel.app/)
-- [The Git & Gihub Bootcamp](https://www.udemy.com/course/git-and-github-bootcamp/) - IN PROGRESS
+- [The Git & Gihub Bootcamp](https://www.udemy.com/course/git-and-github-bootcamp/) - DONE
 
 # "Zero" Code Sessions
 
