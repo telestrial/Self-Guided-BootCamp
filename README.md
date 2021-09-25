@@ -25,6 +25,8 @@ Projects are hosted on Heroku and Vercel's free tier, so any project link may ta
   - Example: [Nexters](https://nexters.vercel.app/)
 - [The Git & Gihub Bootcamp](https://www.udemy.com/course/git-and-github-bootcamp/) - DONE
 
+- [Unhosted Projects](https://imgur.com/a/7Agm9lA)
+
 # "Zero" Code Sessions
 
 This will outline efforts in which there was considerable work but no code was written to file.
