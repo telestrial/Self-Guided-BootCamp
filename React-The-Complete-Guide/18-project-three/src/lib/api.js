@@ -1,11 +1,11 @@
-const FIREBASE_DOMAIN = "https://react-2da29-default-rtdb.firebaseio.com/";
+const FIREBASE_DOMAIN = 'https://quotes-15891-default-rtdb.firebaseio.com/';
 
 export async function getAllQuotes() {
   const response = await fetch(`${FIREBASE_DOMAIN}/quotes.json`);
   const data = await response.json();
 
   if (!response.ok) {
-    throw new Error(data.message || "Could not fetch quotes.");
+    throw new Error(data.message || 'Could not fetch quotes.');
   }
 
   const transformedQuotes = [];
@@ -27,7 +27,7 @@ export async function getSingleQuote(quoteId) {
   const data = await response.json();
 
   if (!response.ok) {
-    throw new Error(data.message || "Could not fetch quote.");
+    throw new Error(data.message || 'Could not fetch quote.');
   }
 
   const loadedQuote = {
@@ -40,16 +40,16 @@ export async function getSingleQuote(quoteId) {
 
 export async function addQuote(quoteData) {
   const response = await fetch(`${FIREBASE_DOMAIN}/quotes.json`, {
-    method: "POST",
+    method: 'POST',
     body: JSON.stringify(quoteData),
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
   });
   const data = await response.json();
 
   if (!response.ok) {
-    throw new Error(data.message || "Could not create quote.");
+    throw new Error(data.message || 'Could not create quote.');
   }
 
   return null;
@@ -59,17 +59,17 @@ export async function addComment(requestData) {
   const response = await fetch(
     `${FIREBASE_DOMAIN}/comments/${requestData.quoteId}.json`,
     {
-      method: "POST",
+      method: 'POST',
       body: JSON.stringify(requestData.commentData),
       headers: {
-        "Content-Type": "application/json",
+        'Content-Type': 'application/json',
       },
     }
   );
   const data = await response.json();
 
   if (!response.ok) {
-    throw new Error(data.message || "Could not add comment.");
+    throw new Error(data.message || 'Could not add comment.');
   }
 
   return { commentId: data.name };
@@ -81,7 +81,7 @@ export async function getAllComments(quoteId) {
   const data = await response.json();
 
   if (!response.ok) {
-    throw new Error(data.message || "Could not get comments.");
+    throw new Error(data.message || 'Could not get comments.');
   }
 
   const transformedComments = [];
