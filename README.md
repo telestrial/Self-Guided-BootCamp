@@ -4,7 +4,7 @@
 
 This repo's contents are the result of a self-guided lesson plan to attain employment in the field of web development within 4-6 months of time. It will consist of curriculum from multiple sources, with material so far covering:
 
-- HTML, CSS, and Bootstrap 4 & 5
+- HTML, CSS, Sass, Bootstrap, Bulma
 - Javascript and Typescript
 - Node, Express
 - MongoDb, Mongoose
