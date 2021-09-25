@@ -12,7 +12,7 @@ This repo's contents are the result of a self-guided lesson plan to attain emplo
 
 # Table of Contents (In Order of Completion)
 
-Projects are hosted on Heroku and Vercel's free tier, so any project link may take a moment to start up, but, after that, they should otherwise be responsive.
+Projects are hosted on Heroku and Vercel's free tier, so any project link may take a moment to start up, but, after that, they should otherwise work as expected.
 
 - [The Complete Web Developer Bootcamp by Colt Steele](https://www.udemy.com/course/the-web-developer-bootcamp/) - DONE
   - Example: [YelpCamp](https://aqueous-citadel-80395.herokuapp.com/)
