@@ -12,7 +12,7 @@ This repo's contents are the result of a self-guided lesson plan to attain emplo
 
 # Table of Contents (In Order of Completion)
 
-Projects are hosted on Heroku and Vercel's free tier, so any project link may take a moment to start up, but, after that, they should otherwise work as expected.
+Projects are hosted on Heroku and Vercel's free tier, so any project link may take a moment to start up, but, after that, they should otherwise work as expected. You can find images of projects that are not hosted [here](https://imgur.com/a/7Agm9lA).
 
 - [The Complete Web Developer Bootcamp by Colt Steele](https://www.udemy.com/course/the-web-developer-bootcamp/) - DONE
   - Example: [YelpCamp](https://aqueous-citadel-80395.herokuapp.com/)
@@ -24,8 +24,6 @@ Projects are hosted on Heroku and Vercel's free tier, so any project link may ta
 - [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/) - DONE
   - Example: [Nexters](https://nexters.vercel.app/)
 - [The Git & Gihub Bootcamp](https://www.udemy.com/course/git-and-github-bootcamp/) - DONE
-
-- [Unhosted Projects](https://imgur.com/a/7Agm9lA)
 
 # "Zero" Code Sessions
 
