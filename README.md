@@ -27,7 +27,7 @@ Projects are hosted on Heroku and Vercel's free tier, so any project link may ta
 
 # Independent Projects
 
-- [Ledgerline](https://ledgerline.herokuapp.com/) - An app for Music Educators
+- [Ledgerline](https://ledgerline.herokuapp.com/) - An App for Music Educators
 
 # "Zero" Code Sessions
 
