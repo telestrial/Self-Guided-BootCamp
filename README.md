@@ -24,6 +24,7 @@ Projects are hosted on Heroku and Vercel's free tier, so any project link may ta
 - [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/) - DONE
   - Example: [Nexters](https://nexters.vercel.app/)
 - [The Git & Gihub Bootcamp](https://www.udemy.com/course/git-and-github-bootcamp/) - DONE
+- [The Ultimate MySQL Bootcamp](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/) - IN PROGRESS
 
 # Independent Projects
 
