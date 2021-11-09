@@ -8,3 +8,4 @@ The majority of this course involves working in Goormide, so progress will be tr
 11/06/21: CRUD Commands (61-84)
 11/07/21: CRUD Challenge (85-94)
 11/08/21: String Functions (95-116)
+11/09/21: Refining Selections (117-132)
