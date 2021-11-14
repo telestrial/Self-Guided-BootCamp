@@ -59,4 +59,4 @@ As I move through this course, I will add items that have challenged me enough t
   - [x] - Part 2
   - [x] - Part 3
 - [x] Look into [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) by Brad Frost.
-  - [ ] Check out [pattern-lab](https://patternlab.io/)
+  - [x] Check out [pattern-lab](https://patternlab.io/)
