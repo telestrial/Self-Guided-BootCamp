@@ -11,3 +11,4 @@ The majority of this course involves working in Goormide, so progress will be tr
 11/09/21: Refining Selections (117-132), Aggregate Functions (133-151)
 11/11/21: Revisiting Data Types (152-174)
 11/12/21: Logical Operators (175-196)
+11/15/21: One to Many (197-219)
