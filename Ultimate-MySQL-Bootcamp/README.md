@@ -15,4 +15,4 @@ The majority of this course involves working in Goormide, so progress will be tr
 11/16/21: Many to Many (220-237)
 11/17/21: Insta Clone (238-254)
 11/18/21: Insta Data Queries (255-273), Node Intro (274-300)
-11/19/21: Web App (301-319)
+11/19/21: Web App (301-318), Database Triggers (319-END)
