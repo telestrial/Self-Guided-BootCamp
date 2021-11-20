@@ -14,17 +14,17 @@ This repo's contents are the result of a self-guided lesson plan to attain emplo
 
 Projects are hosted on Heroku and Vercel's free tier, so any project link may take a moment to start up, but, after that, they should otherwise work as expected. You can find images of projects that are not hosted [here](https://imgur.com/a/7Agm9lA).
 
-- [The Complete Web Developer Bootcamp by Colt Steele](https://www.udemy.com/course/the-web-developer-bootcamp/) - DONE
+- [x] [The Complete Web Developer Bootcamp by Colt Steele](https://www.udemy.com/course/the-web-developer-bootcamp/)
   - Example: [YelpCamp](https://aqueous-citadel-80395.herokuapp.com/)
-- [React - The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) - DONE
+- [x] [React - The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
   - Example: [React Meetup](https://react-meetups-demo.vercel.app/)
-- [React and Typescript: Build a Portfolio](https://www.udemy.com/course/react-and-typescript-build-a-portfolio-project/) - DONE
+- [x] [React and Typescript: Build a Portfolio](https://www.udemy.com/course/react-and-typescript-build-a-portfolio-project/)
   - Example: [Markdown/JS/JSX Code Book](https://markdown-code-demo.vercel.app/)
-- [Javascript Algorithms and Data Structures](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/) - DONE
-- [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/) - DONE
+- [x] [Javascript Algorithms and Data Structures](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/)
+- [x] [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/)
   - Example: [Nexters](https://nexters.vercel.app/)
-- [The Git & Gihub Bootcamp](https://www.udemy.com/course/git-and-github-bootcamp/) - DONE
-- [The Ultimate MySQL Bootcamp](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/) - DONE
+- [x] [The Git & Gihub Bootcamp](https://www.udemy.com/course/git-and-github-bootcamp/)
+- [x] [The Ultimate MySQL Bootcamp](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/)
 
 # Independent Projects
 
