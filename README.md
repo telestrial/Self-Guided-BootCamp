@@ -7,7 +7,7 @@ This repo's contents are the result of a self-guided lesson plan to attain emplo
 - HTML, CSS, Sass, Bootstrap, Bulma
 - Javascript and Typescript
 - Node, Express
-- MongoDb, Mongoose
+- MongoDb, Mongoose, MySQL
 - React (with and without Typescript)
 
 # Table of Contents (In Order of Completion)
@@ -60,3 +60,4 @@ As I move through this course, I will add items that have challenged me enough t
   - [x] - Part 3
 - [x] Look into [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) by Brad Frost.
   - [x] Check out [pattern-lab](https://patternlab.io/)
+- [ ] Learn more about MySQL database triggers
