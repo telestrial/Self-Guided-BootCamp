@@ -43,7 +43,7 @@ This will outline efforts in which there was considerable work but no code was w
 - 09/13/2021: CSS Grid Layout Introduction on Codepen
 - 10/07/2021: Eloquent JS Chapter 5 + Exercises
 - 10/28/2021 - 10/31/2021: Job searching!
-- 11/05/2021: More job searching!
+- 11/22/2021: More job searching!
 
 # Todo List (Extra Practice Items)
 
