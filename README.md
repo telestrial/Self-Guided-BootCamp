@@ -60,4 +60,4 @@ As I move through this course, I will add items that have challenged me enough t
   - [x] - Part 3
 - [x] Look into [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) by Brad Frost.
   - [x] Check out [pattern-lab](https://patternlab.io/)
-- [ ] Learn more about MySQL database triggers
+- [x] [Learn more about MySQL database triggers](https://www.geeksforgeeks.org/different-types-of-mysql-triggers-with-examples/)
