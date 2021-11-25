@@ -45,6 +45,7 @@ This will outline efforts in which there was considerable work but no code was w
 - 10/07/2021: Eloquent JS Chapter 5 + Exercises
 - 10/28/2021 - 10/31/2021: Job searching!
 - 11/22/2021: More job searching!
+- 11/25/2021: Eloquent JS Chapter 6 + Exercises
 
 # Todo List (Extra Practice Items)
 
