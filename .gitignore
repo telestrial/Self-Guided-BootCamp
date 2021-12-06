@@ -27,3 +27,5 @@ React-The-Complete-Guide/21-nextjs-cont/pages/api
 
 **/.cache
 **/dist
+**/tmp  
+**/out-tsc  
