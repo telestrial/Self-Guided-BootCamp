@@ -29,3 +29,5 @@ React-The-Complete-Guide/21-nextjs-cont/pages/api
 **/dist
 **/tmp  
 **/out-tsc  
+
+**/images
