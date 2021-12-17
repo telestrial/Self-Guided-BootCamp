@@ -48,6 +48,7 @@ This will outline efforts in which there was considerable work but no code was w
 - 11/22/2021: More job searching!
 - 11/25/2021: Eloquent JS Chapter 6 + Exercises
 - 12/01/2021 - 12/05/2021: You guessed it: job searching.
+- 12/17/2021: Rxjs Intro (189-195)
 
 # Todo List (Extra Practice Items)
 
