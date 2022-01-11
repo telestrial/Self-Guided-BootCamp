@@ -51,7 +51,7 @@ This will outline efforts in which there was considerable work but no code was w
 - 12/17/2021: Rxjs Intro (189-195), Rxjs Continued (196-204)
 - 12/21/2021 - 01/02/2022: Interview prep/applications
 - 01/05/2022 - 01/07/2022: Interviews/prep/applications
-- 01/10/2022: Interviews/prep/applications
+- 01/10/2022 - 01/11/2022: Interviews/prep/applications
 
 # Todo List (Extra Practice Items)
 
