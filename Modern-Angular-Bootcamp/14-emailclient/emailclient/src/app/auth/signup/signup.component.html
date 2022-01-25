@@ -1,6 +1,6 @@
 <h3>Create an Account</h3>
 
-<form class="ui form" [formGroup]="authForm">
+<form (ngSubmit)="onSubmit()" class="ui form" [formGroup]="authForm">
   <app-input
     inputType="text"
     label="Username"
@@ -26,10 +26,15 @@
     class="ui red basic label"
   >
     <p *ngIf="authForm.errors['passwordsDontMatch']">Passwords don't match</p>
+    <p *ngIf="authForm.errors['noConnection']">
+      No internet connection detected. Failed to signup
+    </p>
+    <p *ngIf="authForm.errors['unknownError']">
+      Something went wrong. Try again later
+    </p>
   </div>
 
   <div>
     <button class="ui submit button primary">Submit</button>
   </div>
-  {{ authForm.errors | json }}
 </form>
