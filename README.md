@@ -53,6 +53,7 @@ This will outline efforts in which there was considerable work but no code was w
 - 01/05/2022 - 01/07/2022: Interviews/prep/applications
 - 01/10/2022 - 01/16/2022: Interviews/prep/applications
 - 01/20/2022 - Interviews/prep/applications
+- 01/26/2022 - Interviews/prep/applications
 
 # Todo List (Extra Practice Items)
 
