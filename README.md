@@ -56,7 +56,7 @@ This will outline efforts in which there was considerable work but no code was w
 - 01/26/2022: Interviews/prep/applications
 - 01/29/2022 - 02/04/2022: Interview prep - leetcode
 - 02/05/2022 - 02/08/2022: Interviews/prep/applications
-- 02/12/2022: Exploring/building open source project to contribute
+- 02/12/2022 - 02/13/2022: Exploring/building open source project to contribute
 
 # Todo List (Extra Practice Items)
 
