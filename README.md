@@ -27,6 +27,7 @@ Projects are hosted on Heroku and Vercel's free tier, so any project link may ta
 - [x] [The Ultimate MySQL Bootcamp](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/)
 - [ ] [The Complete ServiceNow System Administrator Course](https://www.udemy.com/course/the-complete-servicenow-system-administrator-course/)
 - [ ] [The Modern Angular Bootcamp](https://www.udemy.com/course/the-modern-angular-bootcamp/)
+  - Example: [Angular Email Client](https://angularmail.vercel.app/)
 
 # Independent Projects
 
