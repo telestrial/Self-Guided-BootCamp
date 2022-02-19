@@ -28,6 +28,7 @@ Projects are hosted on Heroku and Vercel's free tier, so any project link may ta
 - [ ] [The Complete ServiceNow System Administrator Course](https://www.udemy.com/course/the-complete-servicenow-system-administrator-course/)
 - [x] [The Modern Angular Bootcamp](https://www.udemy.com/course/the-modern-angular-bootcamp/)
   - Example: [Angular Email Client](https://angularmail.vercel.app/)
+- [ ] [Advanced React and Redux](https://www.udemy.com/course/react-redux-tutorial/)
 
 # Independent Projects
 
