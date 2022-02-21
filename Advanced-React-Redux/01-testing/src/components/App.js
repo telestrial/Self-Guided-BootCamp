@@ -1,5 +1,5 @@
-import CommentList from './CommentList';
-import CommentBox from './CommentBox';
+import CommentList from 'components/CommentList';
+import CommentBox from 'components/CommentBox';
 
 const App = () => {
   return (
