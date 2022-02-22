@@ -1,7 +1,10 @@
 import { useState } from 'react';
+import { connect, useDispatch } from 'react-redux';
+import * as actions from 'actions';
 
 const CommentBox = () => {
   const [comment, setComment] = useState('');
+  const dispatch = useDispatch();
 
   const onChangeHandler = (event) => {
     setComment(event.target.value);
@@ -10,20 +13,30 @@ const CommentBox = () => {
   const onSubmitHandler = (event) => {
     event.preventDefault();
 
-    // Call an action creater and save a comment
+    dispatch(actions.saveComment(comment));
 
     setComment('');
   };
 
   return (
-    <form onSubmit={onSubmitHandler}>
-      <h4>Add a comment</h4>
-      <textarea value={comment} onChange={onChangeHandler} />
-      <div>
-        <button>Submit Comment</button>
-      </div>
-    </form>
+    <div>
+      <form onSubmit={onSubmitHandler}>
+        <h4>Add a comment</h4>
+        <textarea value={comment} onChange={onChangeHandler} />
+        <div>
+          <button>Submit Comment</button>
+        </div>
+      </form>
+      <button
+        onClick={() => {
+          dispatch(actions.fetchComments());
+        }}
+        className="fetch-comments"
+      >
+        Fetch Comments
+      </button>
+    </div>
   );
 };
 
-export default CommentBox;
+export default connect(null, actions)(CommentBox);
