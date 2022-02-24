@@ -6,11 +6,11 @@ import CommentList from 'components/CommentList';
 import CommentBox from 'components/CommentBox';
 
 const App = () => {
-  const auth = useSelector((state) => state.auth);
+  const authed = useSelector((state) => state.auth);
   const dispatch = useDispatch();
 
   const renderButton = () => {
-    if (auth) {
+    if (authed) {
       return (
         <button
           onClick={() => {

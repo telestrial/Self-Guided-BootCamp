@@ -1,10 +1,13 @@
 import { useState } from 'react';
 import { connect, useDispatch } from 'react-redux';
 import * as actions from 'actions';
+import useAuth from 'hooks/useAuth';
 
 const CommentBox = () => {
   const [comment, setComment] = useState('');
   const dispatch = useDispatch();
+
+  useAuth();
 
   const onChangeHandler = (event) => {
     setComment(event.target.value);
