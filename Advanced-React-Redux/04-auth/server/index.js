@@ -1,8 +1,22 @@
+require('dotenv').config();
+const JWT_SECRET = process.env.JWT_SECRET;
+
 const express = require('express');
+const app = express();
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
-const app = express();
+const jwt = require('jwt-simple');
+const passportService = require('./services/passport');
+const passport = require('passport');
+
+const requireAuth = passport.authenticate('jwt', { session: false });
+const requireSignin = passport.authenticate('local', { session: false });
+
+function tokenForUser(user) {
+  const timestamp = new Date().getTime();
+  return jwt.encode({ sub: user.id, iat: timestamp }, JWT_SECRET);
+}
 
 // DB Setup
 const User = require('./models/User');
@@ -45,7 +59,15 @@ app.post('/signup', async (req, res) => {
 
   const newUser = new User({ email, password });
   await newUser.save();
-  return res.send({ success: true });
+  res.json({ token: tokenForUser(newUser) });
+});
+
+app.post('/signin', requireSignin, async (req, res) => {
+  res.send({ token: tokenForUser(req.user) });
+});
+
+app.get('/', requireAuth, (req, res) => {
+  res.send({ hi: 'there' });
 });
 
 app.listen(port, () => {
