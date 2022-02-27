@@ -9,6 +9,7 @@ const mongoose = require('mongoose');
 const jwt = require('jwt-simple');
 const passportService = require('./services/passport');
 const passport = require('passport');
+const cors = require('cors');
 
 const requireAuth = passport.authenticate('jwt', { session: false });
 const requireSignin = passport.authenticate('local', { session: false });
@@ -36,6 +37,7 @@ mongoose
 
 // App Setup
 app.use(morgan('dev'));
+app.use(cors());
 app.use(bodyParser.json({ type: '*/*' }));
 
 // Server Setup

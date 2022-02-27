@@ -4,14 +4,14 @@ import * as actions from '../../actions';
 
 import { useNavigate } from 'react-router-dom';
 
-const Signup = ({ handleSubmit }) => {
+const Signin = ({ handleSubmit }) => {
   const dispatch = useDispatch();
   const errorMessage = useSelector((state) => state.auth.errorMessage);
   const navigate = useNavigate();
 
   const onSubmitHandler = (formProps) => {
     dispatch(
-      actions.signup(formProps, () => {
+      actions.signin(formProps, () => {
         navigate('/feature');
       })
     );
@@ -38,9 +38,9 @@ const Signup = ({ handleSubmit }) => {
         />
       </fieldset>
       <div>{errorMessage}</div>
-      <button>Sign Up!</button>
+      <button>Sign In!</button>
     </form>
   );
 };
 
-export default reduxForm({ form: 'signup' })(Signup);
+export default reduxForm({ form: 'signin' })(Signin);
