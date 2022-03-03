@@ -25,7 +25,6 @@ Projects are hosted on Heroku and Vercel's free tier, so any project link may ta
   - Example: [Nexters](https://nexters.vercel.app/)
 - [x] [The Git & Gihub Bootcamp](https://www.udemy.com/course/git-and-github-bootcamp/)
 - [x] [The Ultimate MySQL Bootcamp](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/)
-- [ ] [The Complete ServiceNow System Administrator Course](https://www.udemy.com/course/the-complete-servicenow-system-administrator-course/)
 - [x] [The Modern Angular Bootcamp](https://www.udemy.com/course/the-modern-angular-bootcamp/)
   - Example: [Angular Email Client](https://angularmail.vercel.app/)
 - [x] [Advanced React and Redux](https://www.udemy.com/course/react-redux-tutorial/)
