@@ -38,7 +38,7 @@ Projects are hosted on Heroku and Vercel's free tier, so any project link may ta
 This will outline efforts in which there was considerable work but no code was written to file.
 
 - 06/02/2021: MongoDB Introduction.
-- 06/26/2021: Assisting in a bug fix for the course.
+- 06/26/2021: Assisting in a bug fix for a course.
 - 07/15/2021: Eloquent JS Chapter 3 + Exercises
 - 07/22/2021: Eloquent JS Chapter 4 + Exercises
 - 09/09/2021: Hacker Rank Javascript Certification
