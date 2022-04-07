@@ -2,7 +2,7 @@
 
 ![Late-night Coding](https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
 
-_On April 1st, 2022, I received an offer from Shine Wedding Invitations, which I accepted, thus meeting the goals of this repo/effort. To my relieve, this was not an April Fool's joke._
+**_On April 1st, 2022, I received an offer from Shine Wedding Invitations, which I accepted, thus meeting the goals of this repo/effort. To my relieve, this was not an April Fool's joke._**
 
 This repo's contents are the result of a self-guided lesson plan to attain employment in the field of web development. It will consist of curriculum from multiple sources, with material so far covering:
 
